@@ -1,7 +1,7 @@
 #write your code here
-count = 30
-while count >= countdown
-puts "HAPPY NEW YEAR!"
-count -= 0
-def countdown
+
+def countdown(seconds_to_midnight)
+  while seconds_to_midnight > 0
+  puts "#{seconds_to_midnight} SECOND(S)!"
+  seconds_to_midnight -= 1
 end
